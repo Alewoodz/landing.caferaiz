@@ -88,11 +88,10 @@ footer {
 
     .product-card {
         width: 80%;
-    }
-}
+    }}
+/*le pedi a la ia un poco si me podia ayudar con las imagenes y como configurarlas*/
 .product-card img {
-    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    border-radius: 8px; /* Bordes redondeados */
-    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
 }
