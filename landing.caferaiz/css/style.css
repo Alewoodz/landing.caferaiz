@@ -6,9 +6,9 @@ body {
 }
 
 :root {
-    --primary-color: #6F4C3E; /* Coffee color */
-    --secondary-color: #D9CBAE; /* Cream color */
-    --accent-color: #F2E1D4; /* Light beige */
+    --primary-color: #6F4C3E;
+    --secondary-color: #D9CBAE;
+    --accent-color: #F2E1D4;
     --font-color: #333;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
 
 section {
     padding: 100px 20px;
-    margin-top: 60px; /* To avoid overlap with fixed header */
+    margin-top: 60px;
 }
 
 #inicio {
