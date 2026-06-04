@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #6F4C3E; /* Coffee color */
+    --secondary-color: #D9CBAE; /* Cream color */
+    --accent-color: #F2E1D4; /* Light beige */
+    --font-color: #333;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px; /* To avoid overlap with fixed header */
+}
+
+#inicio {
+    background-color: var(--accent-color);
+    text-align: center;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    width: 30%;
+    margin: 10px;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+#contacto {
+    background-color: var(--secondary-color);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    #menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-card {
+        width: 80%;
+    }
+}
