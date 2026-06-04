@@ -90,3 +90,9 @@ footer {
         width: 80%;
     }
 }
+.product-card img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado debajo de la imagen */
+}
